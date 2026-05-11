@@ -1,0 +1,31 @@
+{
+  "project_name": "H&M Fashion Recommender Demo",
+  "final_model_name": "hybrid_als40_global40_recent20",
+  "demo_export_dir": "/kaggle/working/hm-recommender/demo_export",
+  "data_dir": "/kaggle/working/hm-recommender/demo_export/data",
+  "public_dir": "/kaggle/working/hm-recommender/demo_export/public",
+  "public_images_dir": "/kaggle/working/hm-recommender/demo_export/public/images",
+  "frontend_image_base_url": "/images",
+  "placeholder_image_url": "/images/placeholder-product.jpg",
+  "files": {
+    "customers": "data/demo_customers.json",
+    "articles": "data/demo_articles.json",
+    "home_feed": "data/demo_home_feed.json",
+    "similar_items": "data/demo_similar_items.json",
+    "similar_users": "data/demo_similar_users.json",
+    "similar_user_taste_summary": "data/demo_similar_user_taste_summary.json",
+    "model_metrics": "data/demo_model_metrics.json",
+    "eda_summary": "data/demo_eda_summary.json",
+    "image_copy_report": "data/image_copy_report.json"
+  },
+  "counts": {
+    "demo_customers": 150,
+    "demo_articles": 5000,
+    "home_feed_rows": 2000,
+    "similar_items_rows": 10000,
+    "similar_users_rows": 500,
+    "images_attempted": 5000,
+    "images_copied_or_existing": 4981,
+    "images_missing": 19
+  }
+}
